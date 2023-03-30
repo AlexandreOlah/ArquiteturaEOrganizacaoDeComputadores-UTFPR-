@@ -1,0 +1,4 @@
+Impressão de um valor inteiro:
+ addi $v0,$zero, 1 # chamada para o syscall imprimir inteiro
+ add  $a0, $zero, $t0 # adicionando no $a0 o valor inteiro a ser impresso
+syscall #chamada do sistema
