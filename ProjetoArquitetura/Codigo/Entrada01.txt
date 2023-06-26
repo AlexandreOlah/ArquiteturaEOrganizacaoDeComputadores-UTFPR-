@@ -1,3 +1,6 @@
-00000110 #00 + Registrador (3bits) + 110   -> ADDI
-00000101 #Numero em binário
-01111000 #01 + RegistradorA (3bits) + RegistradorB (3bits) -> ADD
+00001110 # LI no Registrador C
+00000011 # Valor 3 em Binario
+10000001 # ADD C para L
+11110110 # MUL resultado fica em Acum
+00110100 # C * L 
+01110110 # Sair 

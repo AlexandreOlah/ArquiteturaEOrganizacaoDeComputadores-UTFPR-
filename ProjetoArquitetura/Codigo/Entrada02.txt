@@ -1,0 +1,10 @@
+00111110 # LI no Registrador A
+00001000 # Valor 8 em Binario
+01101111 # LD Conteudo do Registrador A é copiado ao Acum
+11010110 # SUBI Acum - Proxima linha
+00000010 # Acum - 2 em binario
+01000101 # LD Conteudo do Registrador Acum é copiado ao B
+11000110 # ADDI 
+00000011 # Acum = Acum + 3 
+11000101 # Imp Acum
+01110110 # Sair 

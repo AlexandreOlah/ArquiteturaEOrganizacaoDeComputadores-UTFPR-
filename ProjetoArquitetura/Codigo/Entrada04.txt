@@ -1,0 +1,11 @@
+00101110 # LI no Registrador L
+00000011 # Valor 3 em Binario
+01100101 # LD no Registrador H
+11010110 # SUBI result em Acum
+00000001 # Valor 1 em Binario
+11110110 # MUL
+10010100 # L * H
+11000010 # BNE
+00000000 # Valor 0 em binario
+00011000 # JUMP
+01100101 # Instrução para Jump
