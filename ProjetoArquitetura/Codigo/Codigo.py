@@ -48,6 +48,7 @@ class Registradores:
         # self.Acum = 0  
         self.Flgs = False
         self.Jump = False
+        self.Elif = False
 
     def setRegistradores(self,Registrador,Valor):        
         if   (Registrador == '111')  or (Registrador == 'A'):
@@ -70,6 +71,8 @@ class Registradores:
             self.Flgs = Valor               
         elif (Registrador == 'Jump'):
             self.Jump = Valor               
+        elif (Registrador == 'Elif'):
+            self.Elif = Valor               
 
     def getRegistradores(self,Registrador): 
         if   (Registrador == '111')  or (Registrador == 'A'):
@@ -92,6 +95,8 @@ class Registradores:
             return self.Flgs    
         elif (Registrador == 'Jump'):
             return self.Jump    
+        elif (Registrador == 'Elif'):
+            return self.Elif    
 
     def ImprimeRegistradores(self,Comando):
         # print('\n' * 10)
@@ -136,7 +141,7 @@ LinhasArq        = 0
 CountIntructions = 0 
 VetInstructions  = []
 
-Entrada = open("Entrada02.txt",'r')
+Entrada = open("Entrada03.txt",'r')
 Entrada.seek(0,0) 
 ArqAux = Entrada
 ArqAux.seek(0,0)
@@ -166,8 +171,7 @@ while LinhasArq != 0:
             exit()
     else:
         Reg.setRegistradores('Jump',False) 
-        print('asdqasda',LinhasArq)
-        Entrada.seek(LinhasArq,0)
+        Entrada.seek(LinhasArq,0) #Posicionar na linha em que fez o jump da instrução
 
     VetInstructions.append(LinhaArquivo)
 #---------------------------------------------------------Acesso-a-Memoria----------------------------------------------------
@@ -382,43 +386,46 @@ while LinhasArq != 0:
 #                                                            BEQ  BNE  
 #...Jp nn   ..................................................................................................................        
     elif (LinhaArquivo[0:8] == '11000011'):  
-        print('Aqui',LinhasArq )
+        #breanch on equal BEQ
         BinParaComparar = (Entrada.readline()).replace('\n', '')[:8]
         InstructionGoTo = (Entrada.readline()).replace('\n', '')[:8]
         
         if (BinParaComparar == Reg.getRegistradores('Acum')):
-            LinhaArquivo = InstructionGoTo
-            LinhasArq = LinhasArq + 1
-            Reg.setRegistradores('Jump',True)
+            Reg.setRegistradores('Elif',True)
+            for k in range(len(VetInstructions)):
+                if (InstructionGoTo == VetInstructions[k]):
+                    PosicaoLinhaJump = k
+                    LinhasArq = AuxCountLinhas - PosicaoLinhaJump
+
 
         Reg.ImprimeRegistradores(' BEQ ') # Tipo BEQ no MIPS
         
     elif (LinhaArquivo[0:8] == '11000010'):                                          
+        #breanch on not equal BNE
         BinParaComparar = (Entrada.readline()).replace('\n', '')[:8]
         InstructionGoTo = (Entrada.readline()).replace('\n', '')[:8]
-        
+         
         if (BinParaComparar != Reg.getRegistradores('Acum')):
-            LinhaArquivo = InstructionGoTo
-            LinhasArq = LinhasArq + 1
-            Reg.setRegistradores('Jump',True)
-        else:    
-            LinhasArq = LinhasArq + 2
+            Reg.setRegistradores('Elif',True)
+            for k in range(len(VetInstructions)):
+                if (InstructionGoTo == VetInstructions[k]):
+                    PosicaoLinhaJump = k
+                    LinhasArq = AuxCountLinhas - PosicaoLinhaJump
+
 
         Reg.ImprimeRegistradores(' BNE ') # Tipo BNE no MIPS
 #------------------------------------------------------Saltos-Incondicionais--------------------------------------------------        
 #                                                            J JR JAL
 #...Jp e    ..................................................................................................................        
-    elif (LinhaArquivo[0:5] == '00011000'):
+    elif (LinhaArquivo[0:8] == '00011000'):
         InstructionGoTo = (Entrada.readline()).replace('\n', '')[:8]
-        
-        LinhaArquivo = InstructionGoTo
-        # Reg.setRegistradores('Jump',True)
-        for x in range(len(VetInstructions)):
-            AuxNumero1 = x
 
-        LinhasArq = AuxNumero1 + 1      
+        for k in range(len(VetInstructions)):
+            if (InstructionGoTo == VetInstructions[k]):
+                PosicaoLinhaJump = k
+                LinhasArq = AuxCountLinhas - PosicaoLinhaJump
+                #AuxCountLinhas = Total de linhas no arquivo
 
-        print('LINHAS ARQ',LinhasArq)
         Reg.ImprimeRegistradores(' JUMP ') # Tipo J no MIPS
         AuxNumero1 = 0 
 
