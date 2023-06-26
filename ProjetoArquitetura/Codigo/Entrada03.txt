@@ -4,4 +4,5 @@
 00000001 # Valor 1 em Binario
 11000010 # BNE
 00000000 # Valor 0 em binario
+11010110 # GoTo
 01110110 # Sair 
