@@ -140,9 +140,8 @@ class Registradores:
 LinhasArq        = 0 
 CountIntructions = 0 
 VetInstructions  = []
-AuxVlrBin = ''
 
-Entrada = open("C:/Users/desenvolvedor5/Desktop/ProjetoArquitetura/Codigo/Entrada03.txt",'r')
+Entrada = open("Entrada03.txt",'r')
 Entrada.seek(0,0) 
 ArqAux = Entrada
 ArqAux.seek(0,0)
@@ -153,9 +152,6 @@ for y in ArqTexto:
     LinhasArq = LinhasArq + 1
 
 AuxCountLinhas = LinhasArq    
-for q in Entrada:
-    VetInstructions.append(q[:8])
-Entrada.seek(0,0)   
 
 Reg = Registradores()
 Reg.ImprimeRegistradores('Inicializando')
@@ -168,9 +164,7 @@ while LinhasArq != 0:
     AuxStr2 = ''
     AuxStr3 = ''
 
-    if (Reg.getRegistradores('Elif') == True):
-        Reg.setRegistradores('Elif',False)
-    elif (Reg.getRegistradores('Jump') == False):
+    if (Reg.getRegistradores('Jump') == False):
         LinhaArquivo = (Entrada.readline()).replace('\n', '') 
         if (LinhaArquivo == '' or LinhaArquivo == ' '):                                    #Verifica se o arquivo esta vazio ou em branco
             print('ERRO: Vazio!')
@@ -179,6 +173,7 @@ while LinhasArq != 0:
         Reg.setRegistradores('Jump',False) 
         Entrada.seek(LinhasArq,0) #Posicionar na linha em que fez o jump da instrução
 
+    VetInstructions.append(LinhaArquivo)
 #---------------------------------------------------------Acesso-a-Memoria----------------------------------------------------
 #                                                             LW  SW 
 #... ....................................................................................................................        
@@ -218,18 +213,12 @@ while LinhasArq != 0:
         Reg.ImprimeRegistradores(' SUB ') # Tipo SUB no MIPS
         AuxNumero1 = 0 
 #...SUB n   ..................................................................................................................        
-    elif ((LinhaArquivo[0:8] == '11010110')):    
-        if (AuxVlrBin != ''):
-            AuxStr1 = AuxVlrBin
-        else:
-            AuxStr1 = (Entrada.readline()).replace('\n', '')[:8]      
-        print(AuxStr1)                                                                  
-        AuxNumero1 = (Reg.getRegistradores('Acum') - BinToInt(int(AuxStr1)))
+    elif ((LinhaArquivo[0:8] == '11010110')):                                                                                   
+        AuxNumero1 = (Reg.getRegistradores('Acum') - BinToInt(int((Entrada.readline()).replace('\n', '')[:8])))
         Reg.setRegistradores('Acum',AuxNumero1)
         Reg.ImprimeRegistradores(' SUBI ') # Tipo SUBI no MIPS
         LinhasArq = LinhasArq - 1
         AuxNumero1 = 0 
-        AuxStr1 = ''
 #...MUL     ..................................................................................................................        
     elif ((LinhaArquivo[0:8] == '11110110')):   
         AuxStr1    = (Entrada.readline()).replace('\n', '')[0:6]
@@ -407,7 +396,6 @@ while LinhasArq != 0:
                 if (InstructionGoTo == VetInstructions[k]):
                     PosicaoLinhaJump = k
                     LinhasArq = AuxCountLinhas - PosicaoLinhaJump
-                    LinhaArquivo = InstructionGoTo
 
 
         Reg.ImprimeRegistradores(' BEQ ') # Tipo BEQ no MIPS
@@ -416,19 +404,15 @@ while LinhasArq != 0:
         #breanch on not equal BNE
         BinParaComparar = (Entrada.readline()).replace('\n', '')[:8]
         InstructionGoTo = (Entrada.readline()).replace('\n', '')[:8]
-        print(BinParaComparar,' != ',Reg.getRegistradores('Acum'))
+         
         if (BinParaComparar != Reg.getRegistradores('Acum')):
             Reg.setRegistradores('Elif',True)
-            k = 0
-            while (k != len(VetInstructions)):      
+            for k in range(len(VetInstructions)):
                 if (InstructionGoTo == VetInstructions[k]):
                     PosicaoLinhaJump = k
-                    LinhasArq = AuxCountLinhas - PosicaoLinhaJump + 1
-                    LinhaArquivo = InstructionGoTo
-                    AuxVlrBin = VetInstructions[PosicaoLinhaJump+1]
-                    k = len(VetInstructions)
-                else:
-                    k = k + 1 
+                    LinhasArq = AuxCountLinhas - PosicaoLinhaJump
+
+
         Reg.ImprimeRegistradores(' BNE ') # Tipo BNE no MIPS
 #------------------------------------------------------Saltos-Incondicionais--------------------------------------------------        
 #                                                            J JR JAL

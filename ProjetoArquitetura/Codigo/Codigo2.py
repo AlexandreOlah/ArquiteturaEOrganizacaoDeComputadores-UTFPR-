@@ -117,6 +117,7 @@ class Registradores:
 # ============================================================OPCODE==========================================================
 
 # Registradores - ['111','000','001','010','011','100','101','Acum']
+#                    A     B     C     D     E     H     L  = Acum 
 # LI   -> 00rrr110 nnnnnnnn (n é adicionado ao Registrador r)
 # LD   -> 01rrrRRR          (Regitrador R é adicionado ao Registrador r)
 # ADD  -> 10000rrr          (Valor adicionado ao Registrador 'Acum')
@@ -141,7 +142,8 @@ LinhasArq        = 0
 CountIntructions = 0 
 VetInstructions  = []
 
-Entrada = open("C:/Users/desenvolvedor5/Desktop/ProjetoArquitetura/Codigo/Entrada02.txt",'r')
+# Entrada = open("C:/Users/desenvolvedor5/Desktop/ProjetoArquitetura/Codigo/Entrada03.txt",'r')
+Entrada = open("Entrada04.txt",'r')
 Entrada.seek(0,0) 
 ArqAux = Entrada
 ArqAux.seek(0,0)
@@ -210,7 +212,7 @@ while LinhasArq != CountIntructions:
 #...SUB n   ..................................................................................................................        
     elif ((LinhaArquivo[0:8] == '11010110')):    
         LinhasArq = LinhasArq + 1
-        LinhaArquivo = VetInstructions[LinhasArq]                                                                        
+        LinhaArquivo = VetInstructions[LinhasArq]                                                                  
         AuxNumero1 = (Reg.getRegistradores('Acum') - BinToInt(int(LinhaArquivo)))
         Reg.setRegistradores('Acum',AuxNumero1)
         Reg.ImprimeRegistradores(' SUBI ') # Tipo SUBI no MIPS
@@ -388,17 +390,39 @@ while LinhasArq != CountIntructions:
 #...Jp nn   ..................................................................................................................        
     elif (LinhaArquivo[0:8] == '11000011'):  
         #breanch on equal BEQ
-        BinParaComparar = (Entrada.readline()).replace('\n', '')[:8]
-        InstructionGoTo = (Entrada.readline()).replace('\n', '')[:8]
+        LinhasArq = LinhasArq + 1
+        LinhaArquivo = VetInstructions[LinhasArq]          
+        BinParaComparar = LinhaArquivo
+        LinhasArq = LinhasArq + 1
+        LinhaArquivo = VetInstructions[LinhasArq]          
+        InstructionGoTo = LinhaArquivo
 
-        Reg.ImprimeRegistradores(' BEQ ') # Tipo BEQ no MIPS
+        if (BinToInt(int(BinParaComparar)) == Reg.getRegistradores('Acum')):
+            CountBne = 0 
+            while (InstructionGoTo != VetInstructions[CountBne]):
+                LinhasArq = CountBne - 1
+                CountBne = CountBne + 1    
+            Reg.ImprimeRegistradores(' BEQ - GoTo ') # Tipo BEQ no MIPS
+        else:            
+            Reg.ImprimeRegistradores(' BEQ ') # Tipo BEQ no MIPS
         
     elif (LinhaArquivo[0:8] == '11000010'):                                          
         #breanch on not equal BNE
-        BinParaComparar = (Entrada.readline()).replace('\n', '')[:8]
-        InstructionGoTo = (Entrada.readline()).replace('\n', '')[:8]
+        LinhasArq = LinhasArq + 1
+        LinhaArquivo = VetInstructions[LinhasArq]          
+        BinParaComparar = LinhaArquivo
+        LinhasArq = LinhasArq + 1
+        LinhaArquivo = VetInstructions[LinhasArq]          
+        InstructionGoTo = LinhaArquivo
 
-        Reg.ImprimeRegistradores(' BNE ') # Tipo BNE no MIPS
+        if (BinToInt(int(BinParaComparar)) != Reg.getRegistradores('Acum')):
+            CountBne = 0 
+            while (InstructionGoTo != VetInstructions[CountBne]):
+                LinhasArq = CountBne - 1
+                CountBne = CountBne + 1    
+            Reg.ImprimeRegistradores(' BNE - GoTo ') # Tipo BNE no MIPS
+        else:            
+            Reg.ImprimeRegistradores(' BNE ') # Tipo BNE no MIPS
 #------------------------------------------------------Saltos-Incondicionais--------------------------------------------------        
 #                                                            J JR JAL
 #...Jp e    ..................................................................................................................        
@@ -420,7 +444,6 @@ while LinhasArq != CountIntructions:
 
     # Solução encontrada por mim para imprimir
     elif ((LinhaArquivo[0:5] == '11000') and (LinhaArquivo[5:8] in VetRegistradores)):                                          
-        print('ASDASDASDASDASDA')
         AuxNumero1 = Reg.getRegistradores(LinhaArquivo[5:8])
         Reg.ImprimeRegistradores(' IMP ') # Tipo syscall 5 no MIPS
         print('Impressão do Registrador <',LinhaArquivo[5:8],'> nele encontra o valor:',AuxNumero1)
@@ -436,11 +459,9 @@ while LinhasArq != CountIntructions:
     # recebido. Enquanto no estado HALT, o processador executa NOPs para manter a memória
     # lógica de atualização.
     elif ((LinhaArquivo[0:8] == '01110110')):                                                                                   
-        Reg.ImprimeRegistradores(' EXT ') # Tipo syscall 10 no MIPS
+        # Reg.ImprimeRegistradores(' EXT ') # Tipo syscall 10 no MIPS
         print('\n---------------------------------------EXIT--------------------------------------\n')
         LinhasArq = CountIntructions - 1  
-
-
 
     LinhasArq  = LinhasArq + 1
 ArqAux.close()
