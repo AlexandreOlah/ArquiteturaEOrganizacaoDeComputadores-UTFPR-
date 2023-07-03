@@ -1,0 +1,4081 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Annots [
+<</Type /Annot /Subtype /Link /Rect [56.6929133858267775 792.5570866141731585 242.4529133858268324 783.3570866141732267] /Border [0 0 0] /A <</S /URI /URI (https://www.compayz.com/?utm_source=download-gpt) >> >>
+]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 3896
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F2 8 Tf
+9.1999999999999993 TL
+0 g
+56.6929133858267775 785.1970866141732586 Td
+(Chat-GPT PDF by CompayZ - www.compayz.com) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0 g
+56.6929133858267775 771.0238582677164914 Td
+(Usuário: User) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0 g
+56.6929133858267775 756.8506299212598378 Td
+(1 / 1) Tj
+T* (Me ensine pipeline na estrutura do MIPS) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0 g
+56.6929133858267775 742.6774015748030706 Td
+(Data: Segunda-feira, 3 de julho de 2023 às 01:01:31 - \(America/Sao_Paulo\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0 g
+56.6929133858267775 728.5041732283464171 Td
+(URL: https://chat.openai.com/c/07a9de00-3a25-4148-a1ba-451c400303ef) Tj
+ET
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 637.7955118110235162 Td
+(Claro! Em MIPS \(Microprocessor without Interlocked Pipeline Stages\), o pipeline é uma técnica) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 615.1183464566928478 Td
+(usada para melhorar o desempenho do processador, dividindo a execução das instruções em) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 592.4411811023621794 Td
+(várias etapas que são executadas em paralelo. O pipeline MIPS possui 5 estágios principais:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 547.086850393700729 Td
+( 1. Busca de Instrução \(IF - Instruction Fetch\):) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 524.4096850393700606 Td
+(    Nesta etapa, a próxima instrução é buscada na memória de instruções com base no valor do) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 501.7325196850393354 Td
+(registrador do Program Counter \(PC\). O PC é atualizado para apontar para a próxima instrução) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 479.0553543307086102 Td
+(na memória.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 433.7010236220471597 Td
+( 2. Decodificação de Instrução \(ID - Instruction Decode\):) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 411.0238582677164914 Td
+(    A instrução buscada no estágio anterior é decodificada nesta etapa. Os campos da instrução) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 388.3466929133857661 Td
+(são identificados \(como códigos de operação, registradores de destino e fonte, constantes etc.\)) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 365.6695275590550409 Td
+(para executar as operações apropriadas.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 320.3151968503935905 Td
+( 3. Execução \(EX - Execution\):) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 297.6380314960629221 Td
+(    Nesta fase, a instrução é efetivamente executada. Dependendo do tipo de instrução, cálculos) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 274.9608661417322537 Td
+(aritméticos, lógicos ou outras operações podem ser realizados aqui.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 229.6065354330708033 Td
+( 4. Acesso à Memória \(MEM - Memory Access\):) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 206.9293700787401349 Td
+(    Se a instrução exigir acesso à memória \(por exemplo, leitura ou escrita\), essa etapa será) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 184.2522047244093528 Td
+(usada para acessar a memória de dados. Isso inclui instruções de carga \(load\) e) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 161.5750393700786844 Td
+(armazenamento \(store\).) Tj
+ET
+1. g
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+521.8935433070865884 28.3464566929134207 Td
+(Pág: 1 de 20) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 4085
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 785.1970866141732586 Td
+( 5. Escrita de Resultado \(WB - Write Back\):) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 762.5199212598424765 Td
+(    Finalmente, o resultado da instrução é escrito no registrador de destino. Isso pode ser o) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 739.8427559055118081 Td
+(resultado de uma operação aritmética ou lógica ou o valor lido da memória.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 694.4884251968503577 Td
+(É importante notar que a execução do pipeline pode ser interrompida por dependências de) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 671.8112598425196893 Td
+(dados ou instruções de desvio condicional, caso a instrução atual dependa dos resultados da) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 649.1340944881889072 Td
+(instrução anterior que ainda não foi concluída ou se uma instrução de salto condicional) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 626.4569291338582389 Td
+(modificar o fluxo sequencial de execução.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 581.1025984251967884 Td
+(O pipeline é uma técnica poderosa para aumentar o desempenho do processador, permitindo) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 558.42543307086612 Td
+(que várias instruções sejam processadas simultaneamente. No entanto, a dependência de) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 535.748267716535338 Td
+(dados e outras instruções condicionais podem causar "hazards" ou problemas de dependência) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 513.0711023622046696 Td
+(que precisam ser tratados adequadamente com técnicas como "forwarding" \(encaminhamento\)) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 490.3939370078739444 Td
+(ou "stalling" \(atraso\) de instruções. Essas técnicas garantem que o resultado correto seja) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 467.716771653543276 Td
+(produzido e que as instruções sejam executadas na ordem correta.) Tj
+ET
+0.78 g
+56.6929133858267775 439.3703149606298552 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 422.3624409448818255 Td
+(P 1:) Tj
+ET
+0.78 g
+56.6929133858267775 416.69314960629913 481.8941732283464034 -22.677165354330711 re
+f
+0.78 g
+56.6929133858267775 394.0159842519684048 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 377.0081102362204319 Td
+(Quais intruções não tem acesso a memória?) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 331.6537795275589815 Td
+(As instruções que não acessam a memória são conhecidas como "instruções de) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 308.9766141732283131 Td
+(registro-registro" ou "instruções do tipo R". Essas instruções executam operações diretamente) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 286.2994488188975311 Td
+(entre registradores da CPU, sem a necessidade de acessar a memória principal \(RAM\). As) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 263.6222834645668627 Td
+(instruções do tipo R geralmente são operações aritméticas e lógicas.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 218.2679527559054122 Td
+(No conjunto de instruções MIPS, os formatos de instruções R seguem a seguinte estrutura) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 195.5907874015747439 Td
+(geral:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 150.2364566929132934 Td
+(sql) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+521.8935433070865884 28.3464566929134207 Td
+(Pág: 2 de 20) Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 2694
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+0. g
+85.0393700787401627 756.8506299212598378 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 739.8427559055118081 Td
+(OPCODE   |  RS   |  RT   |  RD   | SHIFT   | FUNCTION) Tj
+ET
+0. g
+85.0393700787401627 734.1734645669290558 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 717.1655905511811397 Td
+(---------|-------|-------|-------|---------|----------) Tj
+ET
+0. g
+85.0393700787401627 711.4962992125983874 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 694.4884251968503577 Td
+(6 bits   | 5 bits| 5 bits| 5 bits| 5 bits  | 6 bits) Tj
+ET
+0. g
+85.0393700787401627 688.819133858267719 425.2012598425196188 -22.677165354330711 re
+f
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 581.1025984251967884 Td
+(O campo "OPCODE" identifica a operação geral, enquanto o campo "FUNCTION" especifica a) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 558.42543307086612 Td
+(operação específica a ser realizada.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 513.0711023622046696 Td
+(Exemplos de instruções do tipo R no MIPS incluem:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 467.716771653543276 Td
+( 1. ADD \(adição\):) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 422.3624409448818255 Td
+(bash) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 399.6852755905511003 Td
+( "add $rd, $rs, $rt" ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 354.3309448818897067 Td
+(Essa instrução adiciona o conteúdo dos registradores $rs e $rt e armazena o resultado no) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 331.6537795275589815 Td
+(registrador $rd.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 286.2994488188975311 Td
+( 2. SUB \(subtração\):) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 240.9451181102361943 Td
+(bash) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 218.2679527559054122 Td
+( "sub $rd, $rs, $rt" ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 172.9136220472439618 Td
+(Essa instrução subtrai o conteúdo dos registradores $rt de $rs e armazena o resultado no) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 150.2364566929132934 Td
+(registrador $rd.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+521.8935433070865884 28.3464566929134207 Td
+(Pág: 3 de 20) Tj
+ET
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 10 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 2747
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 762.5199212598424765 Td
+( 3. AND \(operação AND lógica\):) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 717.1655905511811397 Td
+(bash) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 694.4884251968503577 Td
+( "and $rd, $rs, $rt" ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 649.1340944881889072 Td
+(Essa instrução executa a operação AND lógica entre os conteúdos dos registradores $rs e $rt,) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 626.4569291338582389 Td
+(armazenando o resultado em $rd.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 581.1025984251967884 Td
+( 4. OR \(operação OR lógica\):) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 535.748267716535338 Td
+(bash) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 513.0711023622046696 Td
+( "or $rd, $rs, $rt" ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 467.716771653543276 Td
+(Essa instrução executa a operação OR lógica entre os conteúdos dos registradores $rs e $rt,) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 445.0396062992125508 Td
+(armazenando o resultado em $rd.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 399.6852755905511003 Td
+( 5. SLT \(definir se menor que\):) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 354.3309448818897067 Td
+(bash) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 331.6537795275589815 Td
+( "slt $rd, $rs, $rt" ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 286.2994488188975311 Td
+(Essa instrução compara os valores dos registradores $rs e $rt. Se o valor em $rs for menor que) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 263.6222834645668627 Td
+(o valor em $rt, o registrador $rd é definido como 1; caso contrário, é definido como 0.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 218.2679527559054122 Td
+(Essas instruções do tipo R são frequentemente usadas para executar cálculos e operações) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 195.5907874015747439 Td
+(lógicas sem a necessidade de acessar a memória, tornando-as mais eficientes em relação ao) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 172.9136220472439618 Td
+(tempo de execução.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+521.8935433070865884 28.3464566929134207 Td
+(Pág: 4 de 20) Tj
+ET
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 12 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 4126
+>>
+stream
+0.5670000000000001 w
+0 G
+0.78 g
+56.6929133858267775 802.2049606299211746 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 785.1970866141732586 Td
+(P 2:) Tj
+ET
+0.78 g
+56.6929133858267775 779.5277952755905062 481.8941732283464034 -22.677165354330711 re
+f
+0.78 g
+56.6929133858267775 756.8506299212598378 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 739.8427559055118081 Td
+(Como usar a técnica de forwarding) Tj
+ET
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 671.8112598425196893 Td
+(A técnica de forwarding \(também conhecida como encaminhamento ou forwarding de dados\) é) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 649.1340944881889072 Td
+(utilizada para resolver problemas de dependência de dados em pipelines de processadores. Ela) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 626.4569291338582389 Td
+(permite que os dados gerados por uma instrução, mas ainda não armazenados no registrador) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 603.7797637795274568 Td
+(de destino, sejam enviados diretamente para outra instrução que depende desses dados. Dessa) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 581.1025984251967884 Td
+(forma, as instruções dependentes podem ser executadas corretamente e de forma mais) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 558.42543307086612 Td
+(eficiente, evitando a necessidade de atrasos \(stalls\) desnecessários no pipeline.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 513.0711023622046696 Td
+(Existem dois tipos principais de forwarding que podem ocorrer em um pipeline MIPS:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 467.716771653543276 Td
+( 1. Forwarding de dados de EX/MEM \(estágio de Execução/Memória\) para EX \(estágio de) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 445.0396062992125508 Td
+(Execução\):) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 422.3624409448818255 Td
+(    Isso ocorre quando a instrução atual em execução escreve seus resultados no estágio de) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 399.6852755905511003 Td
+(memória \(MEM\), mas a próxima instrução em execução \(que já está no estágio de execução -) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 377.0081102362204319 Td
+(EX\) precisa desses dados para sua própria execução. O encaminhamento permite que os) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 354.3309448818897067 Td
+(dados gerados no estágio EX/MEM sejam enviados diretamente para o estágio de EX, evitando) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 331.6537795275589815 Td
+(atrasos.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 286.2994488188975311 Td
+( 2. Forwarding de dados de MEM/WB \(estágio de Memória/Escrita de Resultado\) para EX) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 263.6222834645668627 Td
+(\(estágio de Execução\):) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 240.9451181102361943 Td
+(    Isso ocorre quando a instrução atual em execução escreve seus resultados no estágio) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 218.2679527559054122 Td
+(MEM/WB, mas a próxima instrução em execução \(estágio EX\) precisa dos dados dessa) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 195.5907874015747439 Td
+(instrução. O encaminhamento permite que os dados gerados no estágio MEM/WB sejam) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 172.9136220472439618 Td
+(enviados diretamente para o estágio de EX, evitando atrasos.) Tj
+ET
+1. g
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+521.8935433070865884 28.3464566929134207 Td
+(Pág: 5 de 20) Tj
+ET
+endstream
+endobj
+13 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 14 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 3709
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 785.1970866141732586 Td
+(A seguir, estão os passos gerais para usar a técnica de forwarding em um pipeline MIPS:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 739.8427559055118081 Td
+( 1. Detectar a dependência de dados:) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 717.1655905511811397 Td
+(    Durante a decodificação das instruções, verifique se há instruções subsequentes que) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 694.4884251968503577 Td
+(dependem dos resultados da instrução atual.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 649.1340944881889072 Td
+( 2. Decidir qual forwarding usar:) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 626.4569291338582389 Td
+(    Identifique de qual estágio do pipeline os dados necessários estão disponíveis e para qual) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 603.7797637795274568 Td
+(estágio os dados precisam ser encaminhados.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 558.42543307086612 Td
+( 3. Atualizar os sinais de controle:) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 535.748267716535338 Td
+(    Com base nas decisões acima, atualize os sinais de controle do pipeline para indicar que o) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 513.0711023622046696 Td
+(encaminhamento é necessário.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 467.716771653543276 Td
+( 4. Executar a instrução corretamente:) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 445.0396062992125508 Td
+(    A instrução dependente receberá os dados encaminhados e será capaz de prosseguir com a) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 422.3624409448818255 Td
+(execução, sem a necessidade de aguardar a escrita no registrador de destino da instrução) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 399.6852755905511003 Td
+(anterior.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 354.3309448818897067 Td
+( 5. Cuidados com dependências mais distantes:) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 331.6537795275589815 Td
+(    É importante notar que o encaminhamento pode resolver as dependências entre instruções) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 308.9766141732283131 Td
+(próximas, mas não pode resolver dependências mais distantes. Em alguns casos, pode ser) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 286.2994488188975311 Td
+(necessário inserir atrasos \(stalls\) no pipeline para instruções que dependem de dados gerados) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 263.6222834645668627 Td
+(várias etapas antes.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 218.2679527559054122 Td
+(O uso eficiente da técnica de forwarding pode reduzir o número de atrasos no pipeline e) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 195.5907874015747439 Td
+(melhorar significativamente o desempenho do processador. No entanto, é uma técnica) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 172.9136220472439618 Td
+(complexa e requer um hardware adequado para implementação correta.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+521.8935433070865884 28.3464566929134207 Td
+(Pág: 6 de 20) Tj
+ET
+endstream
+endobj
+15 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 16 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 3115
+>>
+stream
+0.5670000000000001 w
+0 G
+0.78 g
+56.6929133858267775 802.2049606299211746 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 785.1970866141732586 Td
+(P 3:) Tj
+ET
+0.78 g
+56.6929133858267775 779.5277952755905062 481.8941732283464034 -22.677165354330711 re
+f
+0.78 g
+56.6929133858267775 756.8506299212598378 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 739.8427559055118081 Td
+(Me de um exemplo de forwarding) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 694.4884251968503577 Td
+(Vamos considerar o seguinte trecho de código em linguagem assembly MIPS:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 649.1340944881889072 Td
+(bash) Tj
+ET
+1. g
+0. g
+85.0393700787401627 598.1104724409448181 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 581.1025984251967884 Td
+(add $t0, $t1, $t2) Tj
+ET
+0. g
+85.0393700787401627 575.4333070866141497 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 558.42543307086612 Td
+(sub $t3, $t0, $t4) Tj
+ET
+0. g
+85.0393700787401627 552.7561417322833677 425.2012598425196188 -22.677165354330711 re
+f
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 445.0396062992125508 Td
+(Aqui, temos duas instruções: a primeira realiza uma adição dos registradores $t1 e $t2,) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 422.3624409448818255 Td
+(armazenando o resultado em $t0; e a segunda realiza uma subtração entre o valor de $t0 e o) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 399.6852755905511003 Td
+(valor de $t4, armazenando o resultado em $t3.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 354.3309448818897067 Td
+(Suponhamos que esse código esteja sendo executado em um pipeline de 5 estágios \(IF, ID, EX,) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 331.6537795275589815 Td
+(MEM, WB\) e que as instruções estejam distribuídas em cada estágio. Vamos analisar a) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 308.9766141732283131 Td
+(situação de dependência de dados e como o encaminhamento \(forwarding\) pode ser utilizado) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 286.2994488188975311 Td
+(para evitar atrasos no pipeline.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 240.9451181102361943 Td
+(1. Situação Inicial:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 195.5907874015747439 Td
+(IF    ID    EX    MEM   WB) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 172.9136220472439618 Td
+(add   sub               ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 150.2364566929132934 Td
+(      add   sub         ) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+521.8935433070865884 28.3464566929134207 Td
+(Pág: 7 de 20) Tj
+ET
+endstream
+endobj
+17 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 18 0 R
+>>
+endobj
+18 0 obj
+<<
+/Length 3547
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 762.5199212598424765 Td
+(Nesse momento, a instrução "add" está no estágio EX, prestes a escrever o resultado no) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 739.8427559055118081 Td
+(registrador $t0, e a instrução "sub" está no estágio ID, prestes a ser executada. A instrução) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 717.1655905511811397 Td
+("sub" depende do resultado da instrução "add", que ainda não está disponível no registrador) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 694.4884251968503577 Td
+($t0.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 649.1340944881889072 Td
+(2. Aplicação de Forwarding:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 603.7797637795274568 Td
+(Nesse cenário, o hardware do processador detecta a dependência de dados entre a instrução) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 581.1025984251967884 Td
+("add" e a instrução "sub". Em vez de esperar o resultado ser armazenado no registrador $t0) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 558.42543307086612 Td
+(\(estágio WB\) e então enviá-lo para a instrução "sub", o encaminhamento é utilizado para evitar) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 535.748267716535338 Td
+(atrasos.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 490.3939370078739444 Td
+(IF    ID    EX    MEM   WB) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 467.716771653543276 Td
+(add   sub   add         ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 445.0396062992125508 Td
+(      add   sub   add   ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 399.6852755905511003 Td
+(O valor gerado pela instrução "add" no estágio EX é encaminhado \(forwarded\) diretamente para) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 377.0081102362204319 Td
+(o estágio ID, permitindo que a instrução "sub" obtenha o valor necessário para executar a) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 354.3309448818897067 Td
+(subtração corretamente.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 308.9766141732283131 Td
+(3. Conclusão:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 263.6222834645668627 Td
+(Com o uso do forwarding, a instrução "sub" pode prosseguir para o estágio EX sem aguardar o) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 240.9451181102361943 Td
+(resultado da instrução "add" estar disponível em WB. Isso reduz o tempo de execução total do) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 218.2679527559054122 Td
+(programa e melhora o desempenho do pipeline, evitando atrasos desnecessários.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 172.9136220472439618 Td
+(É importante ressaltar que o encaminhamento \(forwarding\) é uma técnica poderosa, mas) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 150.2364566929132934 Td
+(também complexa, e exige hardware adequado para ser implementado corretamente. Em) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+521.8935433070865884 28.3464566929134207 Td
+(Pág: 8 de 20) Tj
+ET
+endstream
+endobj
+19 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 20 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 4125
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 785.1970866141732586 Td
+(pipelines mais avançados, podem ser necessários encaminhamentos adicionais para lidar com) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 762.5199212598424765 Td
+(cenários mais complexos de dependência de dados.) Tj
+ET
+0.78 g
+56.6929133858267775 734.1734645669290558 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 717.1655905511811397 Td
+(P 4:) Tj
+ET
+0.78 g
+56.6929133858267775 711.4962992125983874 481.8941732283464034 -22.677165354330711 re
+f
+0.78 g
+56.6929133858267775 688.819133858267719 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 671.8112598425196893 Td
+(Existe alguma instrução que divide o estagio com outra instrução?) Tj
+ET
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 603.7797637795274568 Td
+(Em pipelines de processadores MIPS, cada instrução é dividida em estágios e segue uma) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 581.1025984251967884 Td
+(sequência fixa de etapas \(IF, ID, EX, MEM e WB\). No entanto, existem situações em que uma) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 558.42543307086612 Td
+(instrução pode "dividir" o estágio com outra instrução, especialmente quando ocorrem atrasos) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 535.748267716535338 Td
+(\(stalls\) ou conflitos de dados que impedem a progressão normal do pipeline.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 490.3939370078739444 Td
+(Isso acontece quando uma instrução não pode prosseguir para o próximo estágio) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 467.716771653543276 Td
+(imediatamente, pois depende de uma instrução anterior que ainda não terminou sua execução) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 445.0396062992125508 Td
+(ou que precisa aguardar dados a serem encaminhados \(forwarded\). Essa situação é conhecida) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 422.3624409448818255 Td
+(como "hazard" ou "conflito" e pode ser resolvida de duas maneiras:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 377.0081102362204319 Td
+( 1. Stalls \(Atrasos\): Nesse caso, o pipeline fica temporariamente parado até que a instrução) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 354.3309448818897067 Td
+(anterior termine sua execução e os dados necessários estejam disponíveis. Isso causa atrasos) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 331.6537795275589815 Td
+(e pode reduzir o desempenho do processador.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 286.2994488188975311 Td
+( 2. Forwarding \(Encaminhamento\): Como mencionado anteriormente, o encaminhamento é uma) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 263.6222834645668627 Td
+(técnica para resolver dependências de dados. Permite que os dados gerados por uma) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 240.9451181102361943 Td
+(instrução, mas ainda não armazenados em um registrador de destino, sejam enviados) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 218.2679527559054122 Td
+(diretamente para outra instrução que depende desses dados. Isso permite que a instrução) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 195.5907874015747439 Td
+(dependente prossiga para o próximo estágio sem esperar pela conclusão da instrução anterior.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 150.2364566929132934 Td
+(Em resumo, as instruções podem "dividir" o estágio quando ocorrem atrasos ou conflitos de) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+521.8935433070865884 28.3464566929134207 Td
+(Pág: 9 de 20) Tj
+ET
+endstream
+endobj
+21 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 22 0 R
+>>
+endobj
+22 0 obj
+<<
+/Length 3270
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 785.1970866141732586 Td
+(dados. O encaminhamento é uma técnica que permite resolver alguns desses conflitos e evitar) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 762.5199212598424765 Td
+(a necessidade de parar o pipeline \(stall\), melhorando o desempenho geral do processador. No) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 739.8427559055118081 Td
+(entanto, em algumas situações mais complexas, pode ser necessário recorrer a atrasos \(stalls\)) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 717.1655905511811397 Td
+(para garantir a execução correta das instruções.) Tj
+ET
+0.78 g
+56.6929133858267775 688.819133858267719 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 671.8112598425196893 Td
+(P 5:) Tj
+ET
+0.78 g
+56.6929133858267775 666.1419685039369369 481.8941732283464034 -22.677165354330711 re
+f
+0.78 g
+56.6929133858267775 643.4648031496062686 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 626.4569291338582389 Td
+(Me mostre uma situação em que "divide") Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 581.1025984251967884 Td
+(Claro! Vou mostrar um exemplo de uma situação em que ocorre uma "divisão" de estágio) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 558.42543307086612 Td
+(devido a um conflito de dados \(dependência de dados\). Vamos considerar o seguinte trecho de) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 535.748267716535338 Td
+(código em linguagem assembly MIPS:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 490.3939370078739444 Td
+(bash) Tj
+ET
+1. g
+0. g
+85.0393700787401627 439.3703149606298552 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 422.3624409448818255 Td
+(add $t0, $t1, $t2) Tj
+ET
+0. g
+85.0393700787401627 416.69314960629913 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 399.6852755905511003 Td
+(sub $t3, $t0, $t4) Tj
+ET
+0. g
+85.0393700787401627 394.0159842519684048 425.2012598425196188 -22.677165354330711 re
+f
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 286.2994488188975311 Td
+(Suponhamos que esse código esteja sendo executado em um pipeline de 5 estágios \(IF, ID, EX,) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 263.6222834645668627 Td
+(MEM, WB\) e que as instruções estejam distribuídas em cada estágio. Vamos analisar a) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 240.9451181102361943 Td
+(situação de dependência de dados entre as duas instruções e como isso pode levar a uma) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 218.2679527559054122 Td
+("divisão" de estágio.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 172.9136220472439618 Td
+(1. Situação Inicial:) Tj
+ET
+1. g
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+517.4935433070866111 28.3464566929134207 Td
+(Pág: 10 de 20) Tj
+ET
+endstream
+endobj
+23 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 24 0 R
+>>
+endobj
+24 0 obj
+<<
+/Length 3610
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 785.1970866141732586 Td
+(IF    ID    EX    MEM   WB) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 762.5199212598424765 Td
+(add   sub               ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 739.8427559055118081 Td
+(      add   sub         ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 694.4884251968503577 Td
+(Nesse momento, a instrução "add" está no estágio EX, prestes a escrever o resultado no) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 671.8112598425196893 Td
+(registrador $t0, e a instrução "sub" está no estágio ID, prestes a ser executada. A instrução) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 649.1340944881889072 Td
+("sub" depende do resultado da instrução "add", que ainda não está disponível no registrador) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 626.4569291338582389 Td
+($t0.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 581.1025984251967884 Td
+(2. Conflito de Dados:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 535.748267716535338 Td
+(A instrução "sub" precisa do resultado da instrução "add" para executar a subtração) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 513.0711023622046696 Td
+(corretamente. No entanto, o valor gerado pela instrução "add" no estágio EX ainda não está) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 490.3939370078739444 Td
+(disponível no registrador $t0. Portanto, a instrução "sub" precisa esperar que a instrução "add") Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 467.716771653543276 Td
+(complete sua execução e escreva o resultado em WB antes de prosseguir.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 422.3624409448818255 Td
+(3. Atraso \(Stall\):) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 377.0081102362204319 Td
+(Como resultado do conflito de dados, o pipeline precisa ser "dividido", e a instrução "sub") Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 354.3309448818897067 Td
+(precisa aguardar um ciclo adicional \(um "stall"\) antes de poder prosseguir com a execução. Isso) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 331.6537795275589815 Td
+(significa que a instrução "add" precisa levar um ciclo extra para escrever o resultado em WB) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 308.9766141732283131 Td
+(antes que a instrução "sub" possa obter o valor correto de $t0.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 263.6222834645668627 Td
+(IF    ID    EX    MEM   WB) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 240.9451181102361943 Td
+(add   sub   add         ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 218.2679527559054122 Td
+(      add   sub   add   ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 172.9136220472439618 Td
+(Após o ciclo de stall, a instrução "sub" pode finalmente obter o valor correto de $t0 e prosseguir) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 150.2364566929132934 Td
+(com a execução normalmente.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+517.4935433070866111 28.3464566929134207 Td
+(Pág: 11 de 20) Tj
+ET
+endstream
+endobj
+25 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 26 0 R
+>>
+endobj
+26 0 obj
+<<
+/Length 3173
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 762.5199212598424765 Td
+(É importante notar que nem sempre uma "divisão" de estágio \(stall\) pode ser evitada em) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 739.8427559055118081 Td
+(situações de dependência de dados, especialmente em pipelines mais simples ou em cenários) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 717.1655905511811397 Td
+(mais complexos de conflitos. O encaminhamento \(forwarding\) é uma técnica poderosa para) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 694.4884251968503577 Td
+(resolver alguns desses conflitos, mas em alguns casos, pode ser necessário recorrer a atrasos) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 671.8112598425196893 Td
+(\(stalls\) para garantir a execução correta das instruções.) Tj
+ET
+0.78 g
+56.6929133858267775 643.4648031496062686 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 626.4569291338582389 Td
+(P 6:) Tj
+ET
+0.78 g
+56.6929133858267775 620.7876377952754865 481.8941732283464034 -22.677165354330711 re
+f
+0.78 g
+56.6929133858267775 598.1104724409448181 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 581.1025984251967884 Td
+(Me mostre um exemplo de forwarding) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 535.748267716535338 Td
+(Claro! Vamos considerar o seguinte trecho de código em linguagem assembly MIPS:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 490.3939370078739444 Td
+(bash) Tj
+ET
+1. g
+0. g
+85.0393700787401627 439.3703149606298552 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 422.3624409448818255 Td
+(add $t0, $t1, $t2) Tj
+ET
+0. g
+85.0393700787401627 416.69314960629913 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 399.6852755905511003 Td
+(sub $t3, $t0, $t4) Tj
+ET
+0. g
+85.0393700787401627 394.0159842519684048 425.2012598425196188 -22.677165354330711 re
+f
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 286.2994488188975311 Td
+(Suponhamos que esse código esteja sendo executado em um pipeline de 5 estágios \(IF, ID, EX,) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 263.6222834645668627 Td
+(MEM, WB\) e que as instruções estejam distribuídas em cada estágio. Vamos analisar a) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 240.9451181102361943 Td
+(situação de dependência de dados entre as duas instruções e como o encaminhamento) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 218.2679527559054122 Td
+(\(forwarding\) pode ser utilizado para evitar atrasos no pipeline.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 172.9136220472439618 Td
+(1. Situação Inicial:) Tj
+ET
+1. g
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+517.4935433070866111 28.3464566929134207 Td
+(Pág: 12 de 20) Tj
+ET
+endstream
+endobj
+27 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 28 0 R
+>>
+endobj
+28 0 obj
+<<
+/Length 3549
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 785.1970866141732586 Td
+(IF    ID    EX    MEM   WB) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 762.5199212598424765 Td
+(add   sub               ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 739.8427559055118081 Td
+(      add   sub         ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 694.4884251968503577 Td
+(Nesse momento, a instrução "add" está no estágio EX, prestes a escrever o resultado no) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 671.8112598425196893 Td
+(registrador $t0, e a instrução "sub" está no estágio ID, prestes a ser executada. A instrução) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 649.1340944881889072 Td
+("sub" depende do resultado da instrução "add", que ainda não está disponível no registrador) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 626.4569291338582389 Td
+($t0.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 581.1025984251967884 Td
+(2. Conflito de Dados:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 535.748267716535338 Td
+(A instrução "sub" precisa do resultado da instrução "add" para executar a subtração) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 513.0711023622046696 Td
+(corretamente. No entanto, o valor gerado pela instrução "add" no estágio EX ainda não está) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 490.3939370078739444 Td
+(disponível no registrador $t0. Portanto, se não fizermos nada, a instrução "sub" teria que) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 467.716771653543276 Td
+(esperar que a instrução "add" complete sua execução e escreva o resultado em WB antes de) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 445.0396062992125508 Td
+(prosseguir.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 399.6852755905511003 Td
+(3. Aplicação de Forwarding:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 354.3309448818897067 Td
+(Nesse cenário, o hardware do processador detecta a dependência de dados entre a instrução) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 331.6537795275589815 Td
+("add" e a instrução "sub". Em vez de esperar o resultado ser armazenado no registrador $t0) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 308.9766141732283131 Td
+(\(estágio WB\) e então enviá-lo para a instrução "sub", o encaminhamento é utilizado para evitar) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 286.2994488188975311 Td
+(atrasos.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 240.9451181102361943 Td
+(IF    ID    EX    MEM   WB) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 218.2679527559054122 Td
+(add   sub   add         ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 195.5907874015747439 Td
+(      add   sub   add   ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 150.2364566929132934 Td
+(O valor gerado pela instrução "add" no estágio EX é encaminhado \(forwarded\) diretamente para) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+517.4935433070866111 28.3464566929134207 Td
+(Pág: 13 de 20) Tj
+ET
+endstream
+endobj
+29 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 30 0 R
+>>
+endobj
+30 0 obj
+<<
+/Length 3757
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 785.1970866141732586 Td
+(o estágio ID, permitindo que a instrução "sub" obtenha o valor necessário para executar a) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 762.5199212598424765 Td
+(subtração corretamente.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 717.1655905511811397 Td
+(4. Conclusão:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 671.8112598425196893 Td
+(Com o uso do forwarding, a instrução "sub" pode prosseguir para o estágio EX sem aguardar o) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 649.1340944881889072 Td
+(resultado da instrução "add" estar disponível em WB. Isso reduz o tempo de execução total do) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 626.4569291338582389 Td
+(programa e melhora o desempenho do pipeline, evitando atrasos desnecessários.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 581.1025984251967884 Td
+(Lembrando que o encaminhamento é uma técnica que resolve dependências de dados entre) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 558.42543307086612 Td
+(instruções próximas, mas não pode resolver dependências mais distantes. Em alguns casos,) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 535.748267716535338 Td
+(podem ser necessários stalls ou outras técnicas adicionais para lidar com cenários mais) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 513.0711023622046696 Td
+(complexos de dependências de dados em pipelines.) Tj
+ET
+0.78 g
+56.6929133858267775 484.7246456692912489 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 467.716771653543276 Td
+(P 7:) Tj
+ET
+0.78 g
+56.6929133858267775 462.0474803149605805 481.8941732283464034 -22.677165354330711 re
+f
+0.78 g
+56.6929133858267775 439.3703149606298552 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 422.3624409448818255 Td
+(me mostre atéofim das instruções) Tj
+ET
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 354.3309448818897067 Td
+(Peço desculpas, mas parece que a última parte da sua mensagem foi cortada ou está) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 331.6537795275589815 Td
+(incompleta. Se puder fornecer mais detalhes ou completar a pergunta, ficarei feliz em ajudar) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 308.9766141732283131 Td
+(com qualquer informação ou exemplos adicionais que você precise sobre instruções MIPS ou) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 286.2994488188975311 Td
+(qualquer outro tópico relacionado. Aguardo sua resposta!) Tj
+ET
+0.78 g
+56.6929133858267775 257.9529921259841672 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 240.9451181102361943 Td
+(P 8:) Tj
+ET
+0.78 g
+56.6929133858267775 235.2758267716534419 481.8941732283464034 -22.677165354330711 re
+f
+0.78 g
+56.6929133858267775 212.5986614173227451 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 195.5907874015747439 Td
+(me mostre até o fim das instruções) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 150.2364566929132934 Td
+(Claro! Vou continuar mostrando as instruções MIPS até o final. Abaixo estão algumas instruções) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+517.4935433070866111 28.3464566929134207 Td
+(Pág: 14 de 20) Tj
+ET
+endstream
+endobj
+31 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 32 0 R
+>>
+endobj
+32 0 obj
+<<
+/Length 2858
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 785.1970866141732586 Td
+(MIPS adicionais:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 739.8427559055118081 Td
+( 1. Instruções de Desvio Condicional:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 694.4884251968503577 Td
+(swift) Tj
+ET
+1. g
+0. g
+85.0393700787401627 643.4648031496062686 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 626.4569291338582389 Td
+(beq $rs, $rt, label    # Salta para a "label" se $rs for igual a) Tj
+ET
+0. g
+85.0393700787401627 620.7876377952754865 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 603.7797637795274568 Td
+($rt) Tj
+ET
+0. g
+85.0393700787401627 598.1104724409448181 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 581.1025984251967884 Td
+(bne $rs, $rt, label    # Salta para a "label" se $rs for diferente) Tj
+ET
+0. g
+85.0393700787401627 575.4333070866141497 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 558.42543307086612 Td
+(de $rt) Tj
+ET
+0. g
+85.0393700787401627 552.7561417322833677 425.2012598425196188 -22.677165354330711 re
+f
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 445.0396062992125508 Td
+( 2. Instruções de Desvio Incondicional:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 399.6852755905511003 Td
+(swift) Tj
+ET
+1. g
+0. g
+85.0393700787401627 348.6616535433070112 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 331.6537795275589815 Td
+(j target          # Salta para o alvo "target" \(Jump\)) Tj
+ET
+0. g
+85.0393700787401627 325.984488188976286 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 308.9766141732283131 Td
+(jal target        # Salta para o alvo "target" e salva o endereço) Tj
+ET
+0. g
+85.0393700787401627 303.3073228346455608 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 286.2994488188975311 Td
+(de retorno em $ra \(Jump and Link\)) Tj
+ET
+0. g
+85.0393700787401627 280.6301574803148924 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 263.6222834645668627 Td
+(jr $rs            # Salta para o endereço contido em $rs \(Jump) Tj
+ET
+0. g
+85.0393700787401627 257.9529921259841672 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 240.9451181102361943 Td
+(Register\)) Tj
+ET
+0. g
+85.0393700787401627 235.2758267716534419 425.2012598425196188 -22.677165354330711 re
+f
+1. g
+1. g
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+517.4935433070866111 28.3464566929134207 Td
+(Pág: 15 de 20) Tj
+ET
+endstream
+endobj
+33 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 34 0 R
+>>
+endobj
+34 0 obj
+<<
+/Length 3060
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 785.1970866141732586 Td
+( 3. Instrução de Carregamento da Memória:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 739.8427559055118081 Td
+(wasm) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 717.1655905511811397 Td
+( "lw $rt, offset\($rs\)    # Carrega o valor da memória no endereço $rs + offset para o registrador) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 694.4884251968503577 Td
+($rt" ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 649.1340944881889072 Td
+( 4. Instrução de Armazenamento na Memória:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 603.7797637795274568 Td
+(wasm) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 581.1025984251967884 Td
+( "sw $rt, offset\($rs\)    # Armazena o valor do registrador $rt na memória no endereço $rs +) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 558.42543307086612 Td
+(offset" ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 513.0711023622046696 Td
+( 5. Instrução de Carregamento de Endereço:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 467.716771653543276 Td
+(swift) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 445.0396062992125508 Td
+( "la $rt, label       # Carrega o endereço da "label" para o registrador $rt \(não disponível em todas) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 422.3624409448818255 Td
+(as implementações\)" ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 377.0081102362204319 Td
+( 6. Instruções de Manipulação de Bits:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 331.6537795275589815 Td
+(bash) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 308.9766141732283131 Td
+( "and $rd, $rs" ) Tj
+ET
+0.78 g
+56.6929133858267775 280.6301574803148924 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 263.6222834645668627 Td
+(P 9:) Tj
+ET
+0.78 g
+56.6929133858267775 257.9529921259841672 481.8941732283464034 -22.677165354330711 re
+f
+0.78 g
+56.6929133858267775 235.2758267716534419 481.8941732283464034 -22.677165354330711 re
+f
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 218.2679527559054122 Td
+(No exemplo de forwarding siga os passos até fazer o WB) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 172.9136220472439618 Td
+(Claro! Vamos acompanhar o exemplo de forwarding passo a passo até chegar ao estágio WB.) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 150.2364566929132934 Td
+(Vamos considerar o seguinte trecho de código em linguagem assembly MIPS:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+517.4935433070866111 28.3464566929134207 Td
+(Pág: 16 de 20) Tj
+ET
+endstream
+endobj
+35 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 36 0 R
+>>
+endobj
+36 0 obj
+<<
+/Length 2922
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 762.5199212598424765 Td
+(bash) Tj
+ET
+1. g
+0. g
+85.0393700787401627 711.4962992125983874 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 694.4884251968503577 Td
+(add $t0, $t1, $t2) Tj
+ET
+0. g
+85.0393700787401627 688.819133858267719 425.2012598425196188 -22.677165354330711 re
+f
+BT
+/F5 10 Tf
+11.5 TL
+1. g
+85.0393700787401627 671.8112598425196893 Td
+(sub $t3, $t0, $t4) Tj
+ET
+0. g
+85.0393700787401627 666.1419685039369369 425.2012598425196188 -22.677165354330711 re
+f
+1. g
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 558.42543307086612 Td
+(Suponhamos que esse código esteja sendo executado em um pipeline de 5 estágios \(IF, ID, EX,) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 535.748267716535338 Td
+(MEM, WB\) e que as instruções estejam distribuídas em cada estágio. Vamos analisar a) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 513.0711023622046696 Td
+(situação de dependência de dados entre as duas instruções e como o encaminhamento) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 490.3939370078739444 Td
+(\(forwarding\) pode ser utilizado para evitar atrasos no pipeline.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 445.0396062992125508 Td
+(1. Situação Inicial:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 399.6852755905511003 Td
+(IF    ID    EX    MEM   WB) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 377.0081102362204319 Td
+(add   sub               ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 354.3309448818897067 Td
+(      add   sub         ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 308.9766141732283131 Td
+(Nesse momento, a instrução "add" está no estágio EX, prestes a escrever o resultado no) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 286.2994488188975311 Td
+(registrador $t0, e a instrução "sub" está no estágio ID, prestes a ser executada. A instrução) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 263.6222834645668627 Td
+("sub" depende do resultado da instrução "add", que ainda não está disponível no registrador) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 240.9451181102361943 Td
+($t0.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 195.5907874015747439 Td
+(2. Conflito de Dados:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 150.2364566929132934 Td
+(A instrução "sub" precisa do resultado da instrução "add" para executar a subtração) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+517.4935433070866111 28.3464566929134207 Td
+(Pág: 17 de 20) Tj
+ET
+endstream
+endobj
+37 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 38 0 R
+>>
+endobj
+38 0 obj
+<<
+/Length 3337
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 785.1970866141732586 Td
+(corretamente. No entanto, o valor gerado pela instrução "add" no estágio EX ainda não está) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 762.5199212598424765 Td
+(disponível no registrador $t0. Portanto, se não fizermos nada, a instrução "sub" teria que) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 739.8427559055118081 Td
+(esperar que a instrução "add" complete sua execução e escreva o resultado em WB antes de) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 717.1655905511811397 Td
+(prosseguir.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 671.8112598425196893 Td
+(3. Aplicação de Forwarding:) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 626.4569291338582389 Td
+(Nesse cenário, o hardware do processador detecta a dependência de dados entre a instrução) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 603.7797637795274568 Td
+("add" e a instrução "sub". Em vez de esperar o resultado ser armazenado no registrador $t0) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 581.1025984251967884 Td
+(\(estágio WB\) e então enviá-lo para a instrução "sub", o encaminhamento é utilizado para evitar) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 558.42543307086612 Td
+(atrasos.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 513.0711023622046696 Td
+(IF    ID    EX    MEM   WB) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 490.3939370078739444 Td
+(add   sub   add         ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 467.716771653543276 Td
+(      add   sub   add   ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 422.3624409448818255 Td
+(O valor gerado pela instrução "add" no estágio EX é encaminhado \(forwarded\) diretamente para) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 399.6852755905511003 Td
+(o estágio ID, permitindo que a instrução "sub" obtenha o valor necessário para executar a) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 377.0081102362204319 Td
+(subtração corretamente.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 331.6537795275589815 Td
+(4. Estágio EX da Instrução "sub":) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 286.2994488188975311 Td
+(A instrução "sub" no estágio EX agora tem o valor correto de $t0 disponível através do) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 263.6222834645668627 Td
+(encaminhamento \(forwarding\).) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 218.2679527559054122 Td
+(IF    ID    EX    MEM   WB) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 195.5907874015747439 Td
+(add   sub   add         ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 172.9136220472439618 Td
+(      add   sub   add   ) Tj
+ET
+1. g
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+517.4935433070866111 28.3464566929134207 Td
+(Pág: 18 de 20) Tj
+ET
+endstream
+endobj
+39 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 40 0 R
+>>
+endobj
+40 0 obj
+<<
+/Length 3074
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 785.1970866141732586 Td
+(5. Estágio MEM da Instrução "sub":) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 739.8427559055118081 Td
+(Neste estágio, a instrução "sub" pode executar qualquer acesso à memória necessário, mas) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 717.1655905511811397 Td
+(não precisa de forwarding neste estágio.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 671.8112598425196893 Td
+(IF    ID    EX    MEM   WB) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 649.1340944881889072 Td
+(add   sub   add         ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 626.4569291338582389 Td
+(      add   sub   add   ) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 581.1025984251967884 Td
+(6. Estágio WB da Instrução "add":) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 535.748267716535338 Td
+(A instrução "add" conclui sua execução e escreve o resultado no registrador $t0. Agora, o) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 513.0711023622046696 Td
+(resultado estará disponível para a instrução "sub" no estágio EX através do encaminhamento.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 467.716771653543276 Td
+(IF    ID    EX    MEM   WB) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 445.0396062992125508 Td
+(add   sub   add         ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 422.3624409448818255 Td
+(      add   sub   add   add) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 377.0081102362204319 Td
+(7. Estágio WB da Instrução "sub":) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 331.6537795275589815 Td
+(A instrução "sub" conclui sua execução e escreve o resultado no registrador $t3.) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 286.2994488188975311 Td
+(IF    ID    EX    MEM   WB) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 263.6222834645668627 Td
+(add   sub   add         ) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 240.9451181102361943 Td
+(      add   sub   add   add) Tj
+ET
+1. g
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 195.5907874015747439 Td
+(Assim, o exemplo de forwarding permitiu que a instrução "sub" obtivesse o resultado necessário) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 172.9136220472439618 Td
+(do registrador $t0 antes do estágio WB, evitando a necessidade de um stall e melhorando a) Tj
+ET
+1. g
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 150.2364566929132934 Td
+(eficiência do pipeline.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+517.4935433070866111 28.3464566929134207 Td
+(Pág: 19 de 20) Tj
+ET
+endstream
+endobj
+41 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 42 0 R
+>>
+endobj
+42 0 obj
+<<
+/Length 134
+>>
+stream
+0.5670000000000001 w
+0 G
+1. g
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+517.4935433070866111 28.3464566929134207 Td
+(Pág: 20 de 20) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R ]
+/Count 20
+>>
+endobj
+43 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+44 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+45 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+46 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+47 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+48 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+49 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+50 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+51 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+52 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+53 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+54 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+55 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+56 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 43 0 R
+/F2 44 0 R
+/F3 45 0 R
+/F4 46 0 R
+/F5 47 0 R
+/F6 48 0 R
+/F7 49 0 R
+/F8 50 0 R
+/F9 51 0 R
+/F10 52 0 R
+/F11 53 0 R
+/F12 54 0 R
+/F13 55 0 R
+/F14 56 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+
+57 0 obj
+<<
+/Type /Outlines
+/First 58 0 R
+/Last 66 0 R
+/Count 9
+>> 
+endobj
+
+58 0 obj
+<<
+/Title (P 1:
+1 / 1
+Quais intruções não tem acesso a memória?)
+/Parent 57 0 R
+/Next 59 0 R
+/Dest [5 0 R /XYZ 0 841.8899999999999864 0]
+>> 
+endobj
+
+59 0 obj
+<<
+/Title (P 2:
+1 / 1
+Como usar a técnica de forwarding)
+/Parent 57 0 R
+/Prev 58 0 R
+/Next 60 0 R
+/Dest [11 0 R /XYZ 0 841.8899999999999864 0]
+>> 
+endobj
+
+60 0 obj
+<<
+/Title (P 3:
+1 / 1
+Me de um exemplo de forwarding)
+/Parent 57 0 R
+/Prev 59 0 R
+/Next 61 0 R
+/Dest [15 0 R /XYZ 0 841.8899999999999864 0]
+>> 
+endobj
+
+61 0 obj
+<<
+/Title (P 4:
+1 / 1
+Existe alguma instrução que divide o estagio com outra instrução?)
+/Parent 57 0 R
+/Prev 60 0 R
+/Next 62 0 R
+/Dest [19 0 R /XYZ 0 841.8899999999999864 0]
+>> 
+endobj
+
+62 0 obj
+<<
+/Title (P 5:
+1 / 1
+Me mostre uma situação em que "divide")
+/Parent 57 0 R
+/Prev 61 0 R
+/Next 63 0 R
+/Dest [21 0 R /XYZ 0 841.8899999999999864 0]
+>> 
+endobj
+
+63 0 obj
+<<
+/Title (P 6:
+1 / 1
+Me mostre um exemplo de forwarding)
+/Parent 57 0 R
+/Prev 62 0 R
+/Next 64 0 R
+/Dest [25 0 R /XYZ 0 841.8899999999999864 0]
+>> 
+endobj
+
+64 0 obj
+<<
+/Title (P 7:
+1 / 1
+me mostre atéofim das instruções)
+/Parent 57 0 R
+/Prev 63 0 R
+/Next 65 0 R
+/Dest [29 0 R /XYZ 0 841.8899999999999864 0]
+>> 
+endobj
+
+65 0 obj
+<<
+/Title (P 8:
+1 / 1
+me mostre até o fim das instruções)
+/Parent 57 0 R
+/Prev 64 0 R
+/Next 66 0 R
+/Dest [29 0 R /XYZ 0 841.8899999999999864 0]
+>> 
+endobj
+
+66 0 obj
+<<
+/Title (P 9:
+1 / 1
+No exemplo de forwarding siga os passos até fazer o WB)
+/Parent 57 0 R
+/Prev 65 0 R
+/Dest [33 0 R /XYZ 0 841.8899999999999864 0]
+>> 
+endobj
+
+67 0 obj
+<<
+/Producer (jsPDF 2.5.1)
+/CreationDate (D:20230703010131-03'00')
+>>
+endobj
+68 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+/Outlines 57 0 R
+>>
+endobj
+xref
+0 69
+0000000000 65535 f 
+0000068856 00000 n 
+0000070809 00000 n 
+0000000015 00000 n 
+0000000376 00000 n 
+0000004324 00000 n 
+0000004461 00000 n 
+0000008598 00000 n 
+0000008735 00000 n 
+0000011481 00000 n 
+0000011619 00000 n 
+0000014419 00000 n 
+0000014558 00000 n 
+0000018737 00000 n 
+0000018876 00000 n 
+0000022638 00000 n 
+0000022777 00000 n 
+0000025945 00000 n 
+0000026084 00000 n 
+0000029684 00000 n 
+0000029823 00000 n 
+0000034001 00000 n 
+0000034140 00000 n 
+0000037463 00000 n 
+0000037602 00000 n 
+0000041265 00000 n 
+0000041404 00000 n 
+0000044630 00000 n 
+0000044769 00000 n 
+0000048371 00000 n 
+0000048510 00000 n 
+0000052320 00000 n 
+0000052459 00000 n 
+0000055370 00000 n 
+0000055509 00000 n 
+0000058622 00000 n 
+0000058761 00000 n 
+0000061736 00000 n 
+0000061875 00000 n 
+0000065265 00000 n 
+0000065404 00000 n 
+0000068531 00000 n 
+0000068670 00000 n 
+0000069044 00000 n 
+0000069170 00000 n 
+0000069301 00000 n 
+0000069435 00000 n 
+0000069573 00000 n 
+0000069697 00000 n 
+0000069826 00000 n 
+0000069958 00000 n 
+0000070094 00000 n 
+0000070222 00000 n 
+0000070349 00000 n 
+0000070478 00000 n 
+0000070611 00000 n 
+0000070713 00000 n 
+0000071063 00000 n 
+0000071139 00000 n 
+0000071297 00000 n 
+0000071461 00000 n 
+0000071622 00000 n 
+0000071818 00000 n 
+0000071987 00000 n 
+0000072152 00000 n 
+0000072315 00000 n 
+0000072480 00000 n 
+0000072652 00000 n 
+0000072738 00000 n 
+trailer
+<<
+/Size 69
+/Root 68 0 R
+/Info 67 0 R
+/ID [ <0B0FAAC7F4786B35D85D8ECE1A6E94A5> <0B0FAAC7F4786B35D85D8ECE1A6E94A5> ]
+>>
+startxref
+72859
+%%EOF
